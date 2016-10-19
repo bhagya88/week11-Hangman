@@ -36,6 +36,6 @@ module.exports= function Word(word){
 		letters.forEach(function(letter){
 			str += letter.display();
 		});
-		console.log(str);
+		console.log('                                 '+str+'       Guesses remaining:'+(10-this.guessCount));
 	}
 }

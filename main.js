@@ -1,6 +1,16 @@
 var game = require ('./game.js');
 var inquirer = require('inquirer');
 
+// Game header
+console.log('**************************************************************************');
+console.log('                     Welcome to Classical Hangman                         ')
+console.log('**************************************************************************');
+console.log('                            Guess the Composer                            ');
+
+console.log('');
+console.log('');
+
+
 //get a random word to guess to start the game
 var word = game.getWord();
 
@@ -26,12 +36,13 @@ function getUserGuess(){
 			if(word.guessCount <10){
 				getUserGuess();
 			}else{
-				console.log("Oops ! You ran out of your guesses !");
+				console.log("\n"+"                   Oops ! You ran out of your guesses !");
 				return;
 			}
 			
 		}else if(word.guessed){
-			console.log("Congratulations ! You have guessed it !");
+
+			console.log("\n"+"                   Congratulations ! You have guessed it !");
 		}
 	});
 }
