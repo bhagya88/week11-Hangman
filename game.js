@@ -1,6 +1,6 @@
 var Word = require('./word.js');
 
-module.exports= function Game(){
+module.exports.getWord= function (){
 
 	var deck = ["beethoven","mozart","haydn","handel","brahms"];
 
@@ -9,7 +9,7 @@ module.exports= function Game(){
 	var randomWordArray = randomWord.split('');
 
 
-	this.getWord = function (){
+
 
 		// creates Word object
 		var word = new Word();
@@ -21,7 +21,5 @@ module.exports= function Game(){
 			word.addLetter(l);
 		});
 
-		return word;
-
-	}
+		
 }
