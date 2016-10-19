@@ -1,12 +1,10 @@
 var game = require ('./game.js');
 var inquirer = require('inquirer');
 
-
-
 //get a random word to guess to start the game
 var word = game.getWord();
 
-
+// console logs word
 word.display();
 
 function getUserGuess(){
@@ -15,7 +13,7 @@ function getUserGuess(){
 					 name: "letter",
 					 message: "Enter a letter: ",
 					 validate : function(input){
-					 		
+					 		return true;
 						}
 					}])
 

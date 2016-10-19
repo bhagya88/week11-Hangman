@@ -8,18 +8,13 @@ module.exports.getWord= function (){
 
 	var randomWordArray = randomWord.split('');
 
-
-
-
 		// creates Word object
 		var word = new Word();
 
-
 		// pushing Letter Objects into Word Object's letter array.
-
 		randomWordArray.forEach(function(l){
 			word.addLetter(l);
 		});
 
-		
+	return word;
 }

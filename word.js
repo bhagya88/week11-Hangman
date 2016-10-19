@@ -2,9 +2,9 @@ var Letter = require('./letter.js');
 
 module.exports= function Word(word){
 
-	var letters =[];
+	var letters = [];
 
-	this.guessCount =0;
+	this.guessCount = 0;
 	this.guessed = false;
 	
 	
