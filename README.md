@@ -2,41 +2,33 @@
 
 This Hangman game is a Node.js console application implemented using OOPs. The theme of this hangman game is `Guess the Composer`.
 
-### Demo
-
 ### Technologies/ Design used
 
 	* Node.js
-	* Object oriented programming using the Constructer functions
+	* Object oriented programming, Constructer functions
 
-You will be fully capable of doing this homework by the end of Saturday's class.
+### Demo
 
-## Instructions
-1. Create a new GitHub repository called `Week11-Hangman`, then clone it to your computer.
+### Hints for testing
+1. git clone the repo
 
-2. Inside your local `Week11-Hangman` folder, make files called `game.js`, `letter.js`, `main.js` and `word.js`.
+2. run `npm install` from console
 
-3. With the files from Step 2, you'll put together a console-based hangman app that incorporates objects, user-input and constructors in its solution.
-  * Both `letter.js` and `word.js` should be constructor files:
-    * `word.js` should contain all of the methods which will check the letters guessed versus the random word selected.
-    * `letter.js` should control whether or not a letter appears as a "_" or as itself on-screen.
-  * Your `game.js` file will randomly select a word for the player.
-  * `main.js` will contain the logic of your app. Running it in Terminal/Bash will start the game.
-    * The app should end when a player guesses the correct word or runs out of guesses.
+3. run `node main.js`
 
-### Tips
+Available composers: Beethoven, Handel, Haydn, Mozart, Brahms
 
-1. Program the game one piece at a time! Break the program down into fragments rather than chipping away little by little at giant, abstract problem. 
-  1. Focus on one part of the smaller problem and get some code working. 
-  2. Rinse and repeat (and remember, `console.log` is your friend).
-2. Try your best to deliver a *working/playable* game by the end of the deadline. 
-  * Submit your app whether you finish or not; if you don't show us anything then we won't be able to help you with whatever programming issues you encountered this week.
-3. **Working game > pretty dud**. We're focusing on game mechanics, not just on the look and feel of your app.
+### How it works
 
--------
-### One More Thing
-If you have any questions about this project or about the material we covered, the instructor and your TAs are only a Slack message away.
 
-**Good Luck!**
+1. It randomly picks a composer to guess from available set of composers and  displays it like this when the game starts:      `_ _ _ _ _ _ _`.
 
-#### Developed by Bhagya
+2. The user guesses the letters present in that word. 
+
+3. When the user guesses correctly, that letter shows.
+
+4. The user has 10 chances to guess the whole word.
+
+5. If the runs out of the chances, he loses. If he guesses the whole word before he runs out of chances, he wins.
+
+##### Developed by Bhagya
