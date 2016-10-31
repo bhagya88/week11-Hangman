@@ -1,20 +1,20 @@
 var Word = require('./word.js');
 
-module.exports.getWord= function (){
+module.exports.getWord = function (){
 
-	var deck = ["beethoven","mozart","haydn","handel","brahms"];
 
-	var randomWord = deck[Math.floor(Math.random() * deck.length)];
+		var deck = ["beethoven","mozart","haydn","handel","brahms"];
 
-	var randomWordArray = randomWord.split('');
+		// picks a random word
+		var randomWord = deck[Math.floor(Math.random() * deck.length)];
 
-		// creates Word object
-		var word = new Word();
+		
+		// creates word object
+		var word = new Word(randomWord);
 
-		// pushing Letter Objects into Word Object's letter array.
-		randomWordArray.forEach(function(l){
-			word.addLetter(l);
-		});
+		// return word object
+		return word;
+	
 
-	return word;
+	
 }
