@@ -29,6 +29,6 @@ Available composers: Beethoven, Handel, Haydn, Mozart, Brahms
 
 4. The user has 10 chances to guess the whole word.
 
-5. If the runs out of the chances, he loses. If he guesses the whole word before he runs out of chances, he wins.
+5. If he runs out of the chances, he loses. If he guesses the whole word before he runs out of chances, he wins.
 
 ##### Developed by Bhagya
