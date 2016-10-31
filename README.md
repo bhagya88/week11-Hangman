@@ -4,8 +4,9 @@ This Hangman game is a Node.js console application implemented using OOPs. The t
 
 ### Technologies/ Design used
 
-	* Node.js
-	* Object oriented programming, Constructer functions
+* Node.js
+
+* Object Oriented Programming
 
 ### Demo
 
