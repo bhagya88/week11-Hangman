@@ -1,4 +1,3 @@
-
 var game = require ('./game.js');
 var inquirer = require('inquirer');
 
