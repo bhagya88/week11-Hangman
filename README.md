@@ -1,8 +1,7 @@
-# Hangman
+# Hangman game
 
 ### Overview
-
-This Hangman game is a Node.js console application implemented using OOPs. The theme of this hangman game is *Guess the Composer of Classical Music*.
+The theme of this game is Classical music. In the this hangman game, you get to guess the composer of the classical music.
 
 ### Demo
 
