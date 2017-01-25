@@ -1,4 +1,4 @@
-# Hangman game
+# Guess the composer
 
 ### Overview
 The theme of this game is Classical music. In the this hangman game, you get to guess the composer of the classical music.
